@@ -6,10 +6,21 @@
 using namespace std;
 
 int main () {
-int n=0;
+int n, number,i;
+number=1;	
 cout<<"counting.."<<endl;
+for (i = 1;i <= 10;i++)
+{
+cout<<number<<",";
+number++;
+}
+for (number=12;number<=30;i++)
+{
 
-while (n<31)
+cout<<number<<",";
+number +=2;
+}
+/*while (n<31)
 {
 	cout << n << ",";
 	n++;
@@ -44,7 +55,7 @@ continue;}
 else if (n==29){
 n++;
 continue;}
-}
+}/**/
 
 
 
